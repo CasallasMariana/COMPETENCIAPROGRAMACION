@@ -1,0 +1,41 @@
+# Compilación
+bin/
+obj/
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.suo
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias y paquetes
+*.nupkg
+packages/
+
+# Archivos generados
+*.dll
+*.exe
+*.pdb
+
+# Configuración local
+appsettings.Development.json
+
+# Rider / otros IDEs
+.idea/
+
+# Archivos de cobertura
+coverage/
+
+# Archivos de build
+*.cache
