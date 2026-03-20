@@ -6,18 +6,18 @@ using System;
 
          public Contador()
          {
-             this.valor = 0;
+             valor = 0;
          }
 
          public int Incrementar()
          {
-             valor = valor + 1;
+            valor ++;
              return valor;
          }
 
          public int Decrementar()
          {
-             valor = valor - 1;
+             valor --;
              return valor;
          }
 
